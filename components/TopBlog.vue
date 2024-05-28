@@ -1,7 +1,7 @@
 <template>
   <section class="px-8" id="blog">
     <BaseWrapper class="py-20 lg:py-32">
-      <h2 class="text-5xl font-bold text-center mb-28">Blog</h2>
+      <h2 class="text-3xl md:text-5xl font-bold text-center mb-8 w-full">Blog</h2>
       <div>
         <div v-for="b in blog" :key="b.slug">
           <div v-if="b.head" class="relative">
@@ -16,7 +16,7 @@
                     {{ tag }}
                   </li>
                 </ul>
-                <h3 class="text-2xl lg:text-4xl leading-normal">{{ b.title }} </h3>
+                <h3 class="text-2xl lg:text-4xl leading-normal font-bold">{{ b.title }} </h3>
                 <div class="leading-relaxed mt-4">{{ b.discription }}</div>
                 <div class="mt-4 text-gray-500 text-sm">{{ new Date(b.date).toLocaleDateString('ja-JP') }}</div>
               </div>
