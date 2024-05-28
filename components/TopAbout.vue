@@ -24,35 +24,47 @@
 
 <script setup>
 
+import tnPath1 from '@/assets/img/tn-pm.svg'
+import tnPath2 from '@/assets/img/tn-design.svg'
+import tnPath3 from '@/assets/img/tn-sales.svg'
+import tnPath4 from '@/assets/img/tn-coding.svg'
+import tnPath5 from '@/assets/img/tn-hrd.svg'
+
+import modalPath1 from '@/assets/img/about-pm.png'
+import modalPath2 from '@/assets/img/about-design.png'
+import modalPath3 from '@/assets/img/about-sales.png'
+import modalPath4 from '@/assets/img/about-coding.png'
+import modalPath5 from '@/assets/img/about-hrd.png'
+
 const images = ref([
   { id: 1,
-    thumbnailSrc: '_nuxt/assets/img/tn-pm.svg',
+    thumbnailSrc: tnPath1,
     thumbnailClass:'about1',
-    modalSrc:'_nuxt/assets/img/about-pm.png',
+    modalSrc: modalPath1,
     alt: 'Project Management'
   },
   { id: 2,
-    thumbnailSrc: '_nuxt/assets/img/tn-design.svg',
+    thumbnailSrc: tnPath2,
     thumbnailClass:'about2',
-    modalSrc:'_nuxt/assets/img/about-web-design.png',
+    modalSrc: modalPath2,
     alt: 'Design'
   },
   { id: 3,
-    thumbnailSrc: '_nuxt/assets/img/tn-sales.svg',
+    thumbnailSrc: tnPath3,
     thumbnailClass:'about3',
-    modalSrc:'_nuxt/assets/img/about-sales.png',
+    modalSrc: modalPath3,
     alt: 'Sales'
   },
   { id: 4,
-    thumbnailSrc: '_nuxt/assets/img/tn-coding.svg',
+    thumbnailSrc: tnPath4,
     thumbnailClass:'about4',
-    modalSrc:'_nuxt/assets/img/about-coding.png',
+    modalSrc: modalPath4,
     alt: 'Coding'
   },
   { id: 5,
-    thumbnailSrc: '_nuxt/assets/img/tn-hrd.svg',
+    thumbnailSrc: tnPath5,
     thumbnailClass:'about5',
-    modalSrc:'_nuxt/assets/img/about-hrd.png',
+    modalSrc: modalPath5,
     alt: 'HR Development'
   },
 ])
