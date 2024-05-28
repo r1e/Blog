@@ -4,9 +4,9 @@
     md:h-24">
     <a href="/"><img class="h-8 md:h-10" src="~/assets/img/logo.svg"></a>
     <nav class="space-x-6 md:space-x-12">
-      <a class="text-gray-500" href="#blog">Blog</a>
-      <a class="text-gray-500" href="#about">About</a>
-      <a class="text-gray-500" href="#contact">Contact</a>
+      <a class="text-gray-500 text-sm md:text-base" href="#blog">Blog</a>
+      <a class="text-gray-500 text-sm md:text-base" href="#about">About</a>
+      <a class="text-gray-500 text-sm md:text-base" href="#contact">Contact</a>
     </nav>
   </header>
 </template>
