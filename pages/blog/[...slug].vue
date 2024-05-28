@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-28 md:pt-44 px-8">
-  <BaseWrapper class="!max-w-screen-md mb-24 px-4 py-8 md:p-10 bg-white rounded-3xl blog-detail">
+  <div class="pt-28 md:pt-44 px-8 !max-w-screen-lg mx-auto">
+  <BaseWrapper class="mb-24 px-4 py-8 md:p-10 bg-white rounded-3xl blog-detail">
     <div class="mb-8"><img :src="blog.image" /></div>
     <ul>
       <li v-for="tag in blog.tags" :key="tag"

@@ -1,6 +1,6 @@
 <template>
   <section class="px-8" id="blog">
-    <BaseWrapper class="mt-20 py-32">
+    <BaseWrapper class="py-20 lg:py-32">
       <h2 class="text-5xl font-bold text-center mb-28">Blog</h2>
       <div>
         <div v-for="b in blog" :key="b.slug">
